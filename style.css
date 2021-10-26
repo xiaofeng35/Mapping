@@ -1,0 +1,52 @@
+#map {
+    position: fixed;
+    width: 70%;
+   top: 0;
+   bottom: 0;
+}
+
+#features {
+    width: 30%;
+    height: 100%;
+    margin-left: 70%;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background-color: #343434;
+    color:#ffffff;
+}
+section {
+    padding: 25px 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 13px;
+}
+section.active {
+    opacity: 1;
+}
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 500px;
+}
+
+#info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 10px auto auto;    /* top right bottom left */
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: #222;
+    background: #fff;
+}
+
+img {
+    width: 480px;
+}
+
+.mapboxgl-popup {
+    max-width: 500px !important;
+}
